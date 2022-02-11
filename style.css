@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body, #quote, #author {
+    display: flex;
+    justify-content: center;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(183, 196, 242);
+    margin: 10px;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid rgb(148, 109, 246);
+    border-radius: 20px;
+}
+
+#quote {
+    font-family: "Staatliches";
+    text-align: center;
+    font-size: 35px;
+}
+
+#author {
+    margin-top: 10px;
+    font-family: "Quicksand";
+    font-size: 20px;
+}
